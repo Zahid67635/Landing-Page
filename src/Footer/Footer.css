@@ -1,11 +1,14 @@
 .footer {
-    position: fixed;
+    position: static;
     padding: 15px;
-    left: 0;
     bottom: 0;
-    width: 100%;
     background-color: #ebf4f6;
     border: 1px dashed black;
+}
+
+h2 {
+    font-family: 'Goudy Old Style';
+    font-weight: 700;
 }
 
 img {
@@ -27,7 +30,7 @@ a {
 .copyright {
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px 5px 100px;
+    margin: 50px 100px 5px 100px;
     font-weight: 700;
 
 }

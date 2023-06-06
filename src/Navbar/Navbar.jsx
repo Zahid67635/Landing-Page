@@ -4,16 +4,16 @@ const Navbar = () => {
     return (
         <div>
             <nav>
-                <h2>Demo</h2>
+                <h2>Demo 2.0</h2>
                 <ul className='mynav'>
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                </ul>
+                    <a href='#'><li>Home</li></a>
+                    <a href='#'><li>Portfolio</li></a>
+                    <a href='#'><li>Blog</li></a>
+                    <a href='#'><li>Contact</li></a >
+                </ul >
                 <button className='btn'>Get Started</button>
-            </nav>
-        </div>
+            </nav >
+        </div >
     );
 };
 

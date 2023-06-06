@@ -1,0 +1,66 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 40px 0;
+    background-image: url('https://st3.depositphotos.com/3278219/33227/i/450/depositphotos_332270864-stock-photo-asian-businessman-woking-with-laptop.jpg');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+.header h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    width: 80%;
+
+}
+
+
+
+.butto {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.butto button {
+
+    background-color: #5ce8f4;
+    color: black;
+
+}
+
+button:hover {
+    background-color: #4ccfe3;
+    color: black;
+}
