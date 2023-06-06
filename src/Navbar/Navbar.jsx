@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 const Navbar = () => {
+
     return (
         <div>
             <nav>
@@ -11,7 +12,7 @@ const Navbar = () => {
                     <a href='#'><li>Blog</li></a>
                     <a href='#'><li>Contact</li></a >
                 </ul >
-                <button className='btn'>Get Started</button>
+                <a href="#id1" className='btn'>Get Started</a>
             </nav >
         </div >
     );

@@ -3,7 +3,6 @@
   line-height: 1;
   font-weight: 400;
   background: #bdeaee;
-  /* fallback color */
   background: linear-gradient(to bottom, #bdeaee, #ffffff);
   background-repeat: no-repeat;
   background-size: cover;

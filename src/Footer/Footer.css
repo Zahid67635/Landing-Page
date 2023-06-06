@@ -2,8 +2,13 @@
     position: static;
     padding: 15px;
     bottom: 0;
-    background-color: #ebf4f6;
     border: 1px dashed black;
+    background: #ffffff;
+    background: linear-gradient(to bottom, #ffffff, #bdeaee);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
 }
 
 h2 {
