@@ -5,6 +5,7 @@ import Header from './Header/Header'
 import Section from './Section2/Section'
 import Section3 from './Section3/Section3'
 import Gallery from './Gallery/Gallery'
+import Section4 from './Section4/Section4'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Section></Section>
         <Section3></Section3>
         <Gallery></Gallery>
+        <Section4></Section4>
       </div>
 
       <Footer></Footer>

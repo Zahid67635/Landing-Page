@@ -12,7 +12,7 @@ const Navbar = () => {
                     <a href='#'><li>Blog</li></a>
                     <a href='#'><li>Contact</li></a >
                 </ul >
-                <a href="#id1" className='btn'>Get Started</a>
+                <a href="#plans" className='btn'>Get Started</a>
             </nav >
         </div >
     );
