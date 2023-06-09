@@ -6,9 +6,16 @@ const Section3 = () => {
             <div className='text'>
                 <h1>Only You are your competitor!</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo incidunt quasi veniam similique repellat ea commodi, sunt, reiciendis error quos laudantium porro saepe alias. Assumenda veritatis commodi nisi inventore alias!</p>
-                <button className='btn'>Get Started</button>
             </div>
-            <div><img src="https://img.freepik.com/free-vector/cute-man-working-computer-cartoon-vector-icon-illustration-people-technology-icon-isolated_138676-5717.jpg?w=2000" alt="" /></div>
+            <div className='icons2'>
+                <div className='icons-grid'>
+                    <div className='icons-pos'><img src="s1.svg" alt="" /></div>
+                    <div className='icons-pos1'><img src="s2.svg" alt="" /></div>
+                    <div className='icons-pos2'><img src="s3.svg" alt="" /></div>
+                    <div className='icons-pos3'><img src="s4.svg" alt="" /></div>
+                    <div className='icons-pos4'><img src="s5.svg" alt="" /></div>
+                </div>
+            </div>
         </div>
     );
 };
