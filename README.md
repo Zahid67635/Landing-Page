@@ -1,6 +1,6 @@
 # Task_of_bizdata
 
-Live link : https://melodic-creponne-83762a.netlify.app/
+Live link : https://rawcss-demo.netlify.app/
 
 Used Technology:
  * React
